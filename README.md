@@ -1,2 +1,6 @@
-# Important-News-Detection
-This repository contains my bachelor’s thesis, in which I investigate the effect of prompt length on important news detection using large language models.
+# Important News Detection
+## Task Description
+In everyday life, news may be published that can have a significant impact on people’s lives. Reading all the news and finding the most important and impactful news is not feasible for everyone and is a challenging task. Therefore, having a model that can distinguish important news from non-important news can be highly beneficial.
+## Proposed Method
+In this research, we use one of these language models to categorize important news and also examine the impact of the prompt length given to the model. In fact, our ultimate goal is to examine the effect of the text length or prompt given to the large language model in detecting important news.  
+For this purpose, we generate different prompts and provide them to the large language model, and compare the results. The distinguishing factors of the prompts are: the type of news whose importance needs to be detected and the number of similar news items included in each prompt. For each news item under study, three different cases are presented to the model: the news title, the full text, and a summary of it. By analyzing the results of the various combinations of these factors, we can evaluate the impact of the text length or prompt on the model’s ability to detect important news.
